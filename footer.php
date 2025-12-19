@@ -1,0 +1,22 @@
+<?php
+/**
+ * Footer template
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+?>
+</main><!-- #site-content -->
+
+<footer id="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <?php echo date( 'Y' ); ?> <?php echo esc_html(sps_data('business', 'legal')) ?>. All rights reserved.</p>
+    <?php
+    // Optional: output menu or policy links.
+    ?>
+  </div>
+</footer>
+
+<?php wp_footer(); ?>
+</body>
+</html>
