@@ -45,7 +45,7 @@ return array(
     ],
     'cta' => array(
         'title' => 'Hungry? Come Eat!',
-        'subtitle' => 'Daily specials from the mobile kitchen.',
+        'subtitle' => 'Check our daily specials and swing by for a hot, affordable soul food plate.',
         'button_text' => 'Call Now',
         'button_url' => 'tel:+13348679329'
     )
