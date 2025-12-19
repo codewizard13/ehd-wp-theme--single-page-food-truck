@@ -8,6 +8,11 @@ if (!defined('ABSPATH')) {
 
 $contact = sps_data('contact');
 
+$phone_disp = sps_fmt_phone( sps_data('business')['phone']);
+$phone_url = sps_fmt_phone( sps_data('business')['phone'], 3);
+
+$cta_btn_url = "tel:1$phone_num";
+
 ?>
 <section id="contact" class="section-contact">
   <div class="container contact-inner">
@@ -18,7 +23,7 @@ $contact = sps_data('contact');
       <ul class="contact-list">
         <li><strong>📍 Address:</strong> <?php echo esc_html($contact['address']); ?></li>
         <li><strong>📱 Phone:</strong>
-          <a href="tel:+1-<?php echo esc_html($contact['phone']); ?>"><?php echo esc_html($contact['phone']); ?></a>
+          <a href="tel:1<?php echo esc_html($phone_url) ?>"><?php echo esc_html($phone_disp); ?></a>
         </li>
         <li><strong>✉️ Email:</strong>
           <a href="mailto:<?php echo esc_html($contact['email']); ?>"><?php echo esc_html($contact['email']); ?></a>
