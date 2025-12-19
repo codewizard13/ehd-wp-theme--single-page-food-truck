@@ -82,5 +82,9 @@ function sps_fmt_phone($num, $option = 1)
         return "{$area}-{$pref}-{$line}";
     }
 
+    if ($option === 3) {
+        return "$area$pref$line";
+    }
+
     return "({$area}) {$pref}-{$line}";
 }
