@@ -36,6 +36,13 @@ return array(
         'image_url' => 'https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?w=500&fit=crop',
         'image_alt' => 'TT Soul To Go food truck'
     ),
+    'contact' => [
+        'title' => "Get In Touch",
+        'intro' => "Call to ask about today's menu or where the truck will be parked.",
+        'address' => "492 Goat Hill Rd, Geneva, AL 36340",
+        'phone' => "(334) 867-9329",
+        'email' => "ttsoultogo@gmail.com",
+    ],
     'cta' => array(
         'title' => 'Hungry? Come Eat!',
         'subtitle' => 'Daily specials from the mobile kitchen.',
