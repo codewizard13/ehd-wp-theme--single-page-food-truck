@@ -55,3 +55,32 @@ function sps_field($key, $default = '')
     }
     return $default;
 }
+
+
+/**
+ * Format phone numbers
+ *
+ * @param string $num    Phone number string in any format
+ * @param int    $option 1 = (nnn) nnn-nnnn (default)
+ *                       2 = nnn-nnn-nnnn
+ */
+function sps_fmt_phone($num, $option = 1)
+{
+    // Strip everything except digits
+    $digits = preg_replace('/\D+/', '', $num); // "334---8679329" -> "3348679329" [web:21]
+
+    // Guard: require exactly 10 digits
+    if ($digits === '' || strlen($digits) !== 10) {
+        return null; // or '' or $num, whatever you prefer
+    }
+
+    $area = substr($digits, 0, 3);
+    $pref = substr($digits, 3, 3);
+    $line = substr($digits, 6, 4);
+
+    if ($option === 2) {
+        return "{$area}-{$pref}-{$line}";
+    }
+
+    return "({$area}) {$pref}-{$line}";
+}
