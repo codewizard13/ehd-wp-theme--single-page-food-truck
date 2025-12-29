@@ -11,7 +11,7 @@ $contact = sps_data('contact');
 $phone_disp = sps_fmt_phone( sps_data('business')['phone']);
 $phone_url = sps_fmt_phone( sps_data('business')['phone'], 3);
 
-$cta_btn_url = "tel:1$phone_num";
+$cta_btn_url = "tel:1$phone_url";
 
 ?>
 <section id="contact" class="section-contact">
