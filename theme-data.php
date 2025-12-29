@@ -20,11 +20,11 @@ return array(
         'email' => 'ttsoultogo@gmail.com',
         'facebook' => 'Search "TT Soul To Go" on Facebook'
     ),
-    'menu' => array(
-        'BBQ Pork Plate' => ['title' => 'BBQ Pork Plate', 'desc' => 'Slow-smoked pork, cornbread & two sides.', 'image_url' => 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300&fit=crop'],
-        'Fried Chicken' => ['title' => 'Fried Chicken', 'desc' => 'Crispy golden fried with daily sides.', 'image_url' => 'https://images.unsplash.com/photo-1690519315565-c31ce99f8d58?w=300&fit=crop'],
-        'Chili & Dogs' => ['title' => 'Chili & Dogs', 'desc' => 'Hearty homemade chili on hot dogs.', 'image_url' => 'https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?w=300&fit=crop'],
-        'Fried Fish' => ['title' => 'Fried Fish', 'desc' => 'Crispy fried fish plate & sides.', 'image_url' => 'https://images.unsplash.com/photo-1579208030886-b937da0925dc?w=300&fit=crop'],
+    'food_menu' => array(
+        'BBQ Pork Plate' => ['title' => 'BBQ Pork Plate', 'desc' => 'Slow-smoked pork, cornbread & two sides.', 'image_url' => 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300&fit=crop', 'alt' => 'BBQ Pork Plate'],
+        'Fried Chicken' => ['title' => 'Fried Chicken', 'desc' => 'Crispy golden fried with daily sides.', 'image_url' => 'https://images.unsplash.com/photo-1690519315565-c31ce99f8d58?w=300&fit=crop', 'alt' => 'Fried Chicken'],
+        'Chili & Dogs' => ['title' => 'Chili & Dogs', 'desc' => 'Hearty homemade chili on hot dogs.', 'image_url' => 'https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?w=300&fit=crop', 'alt' => 'Chili & Dogs'],
+        'Fried Fish' => ['title' => 'Fried Fish', 'desc' => 'Crispy fried fish plate & sides.', 'image_url' => 'https://images.unsplash.com/photo-1579208030886-b937da0925dc?w=300&fit=crop', 'alt' => 'Fried Fish'],
     ),
     'about' => array(
         'title' => 'About TT Soul To Go',
