@@ -8,12 +8,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // $headline    = sps_field( 'hero_headline', "Soul Food from the Heart" );
 // $subheadline = sps_field( 'hero_subheadline', "Hot plates of chili, BBQ pork, fried chicken, fish, ribs & daily specials from Geneva, AL." );
-// $button_text = sps_field( 'hero_button_text', 'See Today\'s Menu' );
+// $button_text = sps_field( 'hero_button_text', 'See Today\'s food_Menu' );
 // $button_url  = sps_field( 'hero_button_url', '#services' );
 
 $hero = sps_data('hero');
-$menu = sps_data('menu');
-  error_log(basename(__FILE__) . ': ' . __LINE__ . ' - ' . '$menu: ' . print_r($menu, 1));
+$food_menu = sps_data('food_menu');
+  error_log(basename(__FILE__) . ': ' . __LINE__ . ' - ' . '$food_menu: ' . print_r($food_menu, 1));
 
 
 
@@ -40,7 +40,7 @@ $menu = sps_data('menu');
       </div>
     </div>
     <div class="hero-media">
-      <img src="<?php echo esc_url( $menu['Fried Chicken']['image_url'] ); ?>" alt="<?php echo esc_attr( $hero_image['alt'] ); ?>">
+      <img src="<?php echo esc_url( $food_menu['Fried Chicken']['image_url'] ); ?>" alt="<?php echo esc_attr( $food_menu['Fried Chicken']['alt'] ); ?>">
       <div class="hero-tag">Fresh Daily</div>
     </div>
   </div>
