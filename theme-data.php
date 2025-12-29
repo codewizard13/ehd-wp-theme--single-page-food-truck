@@ -21,10 +21,10 @@ return array(
         'facebook' => 'Search "TT Soul To Go" on Facebook'
     ),
     'menu' => array(
-        array('title' => 'BBQ Pork Plate', 'desc' => 'Slow-smoked pork, cornbread & two sides.', 'image_url' => 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300&fit=crop'),
-        array('title' => 'Fried Chicken', 'desc' => 'Crispy golden fried with daily sides.', 'image_url' => 'https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?w=300&fit=crop'),
-        array('title' => 'Chili & Dogs', 'desc' => 'Hearty homemade chili on hot dogs.', 'image_url' => 'https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?w=300&fit=crop'),
-        array('title' => 'Fried Fish', 'desc' => 'Crispy fried fish plate & sides.', 'image_url' => 'https://images.unsplash.com/photo-1579586140626-5981f5e8f90d?w=300&fit=crop')
+        'BBQ Pork Plate' => ['title' => 'BBQ Pork Plate', 'desc' => 'Slow-smoked pork, cornbread & two sides.', 'image_url' => 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300&fit=crop'],
+        'Fried Chicken' => ['title' => 'Fried Chicken', 'desc' => 'Crispy golden fried with daily sides.', 'image_url' => 'https://images.unsplash.com/photo-1690519315565-c31ce99f8d58?w=300&fit=crop'],
+        'Chili & Dogs' => ['title' => 'Chili & Dogs', 'desc' => 'Hearty homemade chili on hot dogs.', 'image_url' => 'https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?w=300&fit=crop'],
+        'Fried Fish' => ['title' => 'Fried Fish', 'desc' => 'Crispy fried fish plate & sides.', 'image_url' => 'https://images.unsplash.com/photo-1579208030886-b937da0925dc?w=300&fit=crop'],
     ),
     'about' => array(
         'title' => 'About TT Soul To Go',
@@ -50,3 +50,5 @@ return array(
         'button_url' => 'tel:+13348679329'
     )
 );
+
+
