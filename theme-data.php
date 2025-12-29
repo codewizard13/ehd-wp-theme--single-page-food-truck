@@ -48,7 +48,20 @@ return array(
         'subtitle' => 'Check our daily specials and swing by for a hot, affordable soul food plate.',
         'button_text' => 'Call Now',
         'button_url' => 'tel:+13348679329'
-    )
+    ),
+    'testimonials' => [
+    ['quote' => 'Nothing beats the fried chicken that tastes like Sunday dinner at grandma’s house.', 'name' => 'MaryLou Jenkins', 'role' => 'Local Homemaker'],
+    ['quote' => 'Their cornbread and collard greens are worth the drive from town.', 'name' => 'Jimbo Carter', 'role' => 'Farmer'],
+    ['quote' => 'Fast, friendly service and the best pecan pie I’ve had in ages.', 'name' => 'Sharon Reed', 'role' => 'Retired Nurse'],
+    ['quote' => 'The soul in every bite—comfort food done right.', 'name' => 'Bobby Lee', 'role' => 'Truck Driver'],
+    ['quote' => 'We feed the football team here every game night. Always a crowd pleaser.', 'name' => 'Coach Daniels', 'role' => 'School Coach'],
+    ['quote' => 'The hush puppies alone are worth the trip. Tender meat, big flavor.', 'name' => 'Linda Mae', 'role' => 'Stay-at-Home Mom'],
+    ['quote' => 'Kid-friendly portions, big flavors, and a smile with every plate.', 'name' => 'Clyde Turner', 'role' => 'Small Business Owner'],
+    ['quote' => 'If you’re hungry after church, this is the place to be.', 'name' => 'Grace Thompson', 'role' => 'Church Member'],
+    ['quote' => 'Practical, hearty meals that remind you of home.', 'name' => 'Ralph Davis', 'role' => 'Mechanic'],
+    ['quote' => 'We come here every Sunday. It’s the taste of home in every bite.', 'name' => 'Ella Mae', 'role' => 'Grandmother'],
+    ],
+
 );
 
 
