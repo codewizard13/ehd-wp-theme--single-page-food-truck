@@ -7,7 +7,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 $title        = sps_field( 'testimonials_title', 'What clients say' );
-$testimonials = function_exists( 'get_field' ) ? get_field( 'testimonials_items' ) : array();
+// $testimonials = function_exists( 'get_field' ) ? get_field( 'testimonials_items' ) : array();
+$testimonials = sps_data('testimonials');
+
+
 /*
   Repeater "testimonials_items":
     - quote
