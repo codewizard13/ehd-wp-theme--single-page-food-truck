@@ -39,7 +39,8 @@ return array(
         'address' => '123 Main St, Ozark, AL 36360',
         'phone' => '(555) 482-9183',
         'email' => 'mack.turner@flchicken.com',
-        'facebook' => 'Search "Finger Lickin’ Chicken" on Facebook'
+        // 'facebook' => 'Search "Finger Lickin’ Chicken" on Facebook'
+        'facebook' => 'https://www.facebook.com/fingerlickinchickenal',
     ),
     'food_menu' => array(
         'BBQ Pork Plate' => [

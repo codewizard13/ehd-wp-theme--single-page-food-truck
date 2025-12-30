@@ -19,9 +19,10 @@ if (!defined('ABSPATH')) {
 }
 
 $contact = sps_data('contact');
+$business = sps_data('business');
 
-$phone_disp = sps_fmt_phone( sps_data('business')['phone']);
-$phone_url = sps_fmt_phone( sps_data('business')['phone'], 3);
+$phone_disp = sps_fmt_phone(sps_data('business')['phone']);
+$phone_url = sps_fmt_phone(sps_data('business')['phone'], 3);
 
 $cta_btn_url = "tel:1$phone_url";
 
@@ -40,7 +41,7 @@ $cta_btn_url = "tel:1$phone_url";
         <li><strong>✉️ Email:</strong>
           <a href="mailto:<?php echo esc_html($contact['email']); ?>"><?php echo esc_html($contact['email']); ?></a>
         </li>
-        <li><strong>Facebook:</strong> Search "TT Soul To Go"</li>
+        <li><strong>Facebook:</strong> <a href="<?php echo esc_attr($business['facebook']) ?>"><?php echo esc_html($business['facebook']) ?></a> </li>
       </ul>
     </div>
     <div class="contact-form">
