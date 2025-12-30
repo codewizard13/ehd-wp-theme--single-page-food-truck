@@ -35,7 +35,7 @@ $food_menu = sps_data('food_menu');
         <?php echo esc_html( $hero['button_text'] ); ?>
       </a>
       <div class="hero-meta">
-        <span>"Cooked from the soul, affordable for everyone" — Jackie Morris</span>
+        <span><em>"Cooked from the soul, affordable for everyone"</em> — Jackie Morris</span>
       </div>
     </div>
     <div class="hero-media">
