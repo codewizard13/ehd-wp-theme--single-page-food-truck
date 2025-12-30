@@ -1,4 +1,4 @@
-![Site Logo](/pix/logos/eric-hepperle-designs-stacked-h100px.png){height=52px}
+![Site Logo](/pix/logos/eric-hepperle-designs-stacked-h52px.png)
 
 
 # Finger Lickin' Chicken Theme
