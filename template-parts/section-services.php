@@ -3,13 +3,30 @@
 /**
  * Services section template part
  *
- * Displays the services or menu items in a grid layout.
+ * Renders a responsive grid of services or menu items for the single-page site.
+ * Data is sourced via EHD helper functions:
+ * - sps_field() for the section title and intro
+ * - sps_data() for the menu/service items
  *
- * @package SinglePageStarter
- * @author Eric Hepperle
- * @version 1.5.0
+ * This template expects each dish in the food_menu array to include:
+ * - image_url (string): URL of the dish image
+ * - title (string): dish name
+ * - desc (string): dish description
+ *
+ * The output includes:
+ * - A section heading
+ * - An optional subtitle/intro
+ * - A grid of cards with image, title, and description
+ *
+ * @package EHD_Single_Page_Food_Truck
+ * @subpackage Template_Parts
+ * @category Theme
+ * @author Eric Hepperle Designs
+ * @version 1.0.0
+ * @since   1.0.0
  * @license GPL-2.0+
- * @since 1.0.0
+ * @see     sps_field(), sps_data()
+ * @global  none
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

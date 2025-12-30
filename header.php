@@ -5,9 +5,9 @@
  *
  * Contains the site header, navigation, and branding.
  *
- * @package SinglePageStarter
- * @author Eric Hepperle
- * @version 1.5.0
+ * @package EHD_Single_Page_Food_Truck
+ * @author Eric Hepperle Designs
+ * @version 1.0.0
  * @license GPL-2.0+
  * @since 1.0.0
  */
