@@ -1,7 +1,17 @@
 <?php
+
 /**
  * Footer template
+ *
+ * Contains the site footer and closing HTML tags.
+ *
+ * @package SinglePageStarter
+ * @author Eric Hepperle
+ * @version 1.5.0
+ * @license GPL-2.0+
+ * @since 1.0.0
  */
+
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }

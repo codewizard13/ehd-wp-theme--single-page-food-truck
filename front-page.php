@@ -1,7 +1,17 @@
 <?php
+
 /**
- * Front page (single-page layout)
+ * Front page template
+ *
+ * Displays the main single-page layout with all sections.
+ *
+ * @package SinglePageStarter
+ * @author Eric Hepperle
+ * @version 1.5.0
+ * @license GPL-2.0+
+ * @since 1.0.0
  */
+
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }

@@ -1,6 +1,18 @@
 <?php
 
 /**
+ * Theme functions and setup
+ *
+ * Contains theme setup, enqueues, and utility functions.
+ *
+ * @package SinglePageStarter
+ * @author Eric Hepperle
+ * @version 1.5.0
+ * @license GPL-2.0+
+ * @since 1.0.0
+ */
+
+/**
  * Theme functions
  */
 

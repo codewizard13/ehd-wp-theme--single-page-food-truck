@@ -2,7 +2,16 @@
 
 /**
  * Header template
+ *
+ * Contains the site header, navigation, and branding.
+ *
+ * @package SinglePageStarter
+ * @author Eric Hepperle
+ * @version 1.5.0
+ * @license GPL-2.0+
+ * @since 1.0.0
  */
+
 if (!defined('ABSPATH')) {
   exit;
 }

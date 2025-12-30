@@ -1,7 +1,17 @@
 <?php
+
 /**
- * CTA section
+ * Call-to-action section template part
+ *
+ * Displays a prominent call-to-action with button.
+ *
+ * @package SinglePageStarter
+ * @author Eric Hepperle
+ * @version 1.5.0
+ * @license GPL-2.0+
+ * @since 1.0.0
  */
+
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }

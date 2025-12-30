@@ -1,5 +1,17 @@
 <?php
-// Basic WordPress theme index
+
+/**
+ * Index template
+ *
+ * Fallback template for displaying posts or pages.
+ *
+ * @package SinglePageStarter
+ * @author Eric Hepperle
+ * @version 1.5.0
+ * @license GPL-2.0+
+ * @since 1.0.0
+ */
+
 get_header();
 ?>
 

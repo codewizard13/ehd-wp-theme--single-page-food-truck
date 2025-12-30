@@ -1,7 +1,17 @@
 <?php
+
 /**
- * Menu Highlights section
+ * Services section template part
+ *
+ * Displays the services or menu items in a grid layout.
+ *
+ * @package SinglePageStarter
+ * @author Eric Hepperle
+ * @version 1.5.0
+ * @license GPL-2.0+
+ * @since 1.0.0
  */
+
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }

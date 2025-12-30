@@ -1,7 +1,17 @@
 <?php
+
 /**
- * Hero section - TT Soul To Go
+ * Hero section template part
+ *
+ * Displays the main hero banner with headline, subheadline, and call-to-action.
+ *
+ * @package SinglePageStarter
+ * @author Eric Hepperle
+ * @version 1.5.0
+ * @license GPL-2.0+
+ * @since 1.0.0
  */
+
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }

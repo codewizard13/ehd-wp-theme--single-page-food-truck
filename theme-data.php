@@ -1,4 +1,17 @@
 <?php
+
+/**
+ * Theme data configuration
+ *
+ * Centralized data array for theme content and settings.
+ *
+ * @package SinglePageStarter
+ * @author Eric Hepperle
+ * @version 1.5.0
+ * @license GPL-2.0+
+ * @since 1.5.0
+ */
+
 if (!defined('ABSPATH'))
     exit;
 

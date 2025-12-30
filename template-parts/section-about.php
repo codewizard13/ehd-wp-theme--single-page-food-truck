@@ -1,7 +1,17 @@
 <?php
+
 /**
- * About section
+ * About section template part
+ *
+ * Displays the about section with business story and image.
+ *
+ * @package SinglePageStarter
+ * @author Eric Hepperle
+ * @version 1.5.0
+ * @license GPL-2.0+
+ * @since 1.0.0
  */
+
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
