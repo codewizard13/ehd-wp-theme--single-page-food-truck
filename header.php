@@ -15,6 +15,10 @@
 if (!defined('ABSPATH')) {
   exit;
 }
+
+$use_bloginfo_name = false;
+$business = sps_data('business');
+
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -33,7 +37,7 @@ if (!defined('ABSPATH')) {
           <?php the_custom_logo(); ?>
         <?php else: ?>
           <a href="<?php echo esc_url(home_url('/')); ?>" class="site-title">
-            <?php bloginfo('name'); ?>
+            <?php echo $use_bloginfo_name ? bloginfo('name') : esc_html($business['name']); ?>
           </a>
         <?php endif; ?>
       </div>
