@@ -36,7 +36,7 @@
 ## Project Status
 **Phase:** Active Development & Client Review  
 **Support Level:** Active Development  
-**Repository:** Private — EricHepperleES / Finger Lickin' Chicken Theme
+**Repository:** Private — CodeWizard13 / Finger Lickin' Chicken Theme
 
 ---
 
@@ -44,7 +44,7 @@
 
 **Core Development Team**
 
-- [**EricHepperleES**](https://github.com/EricHepperleES) — Lead Developer  
+- [**CodeWizard13 (Eric Hepperle)**](https://github.com/codewizard13) — Lead Developer  
   *Architected complete single-page structure, PHP templates, and responsive design system.*
 
 - [**MackTurner**](mailto:mack.turner@flchicken.com) — Client / Content Provider  
