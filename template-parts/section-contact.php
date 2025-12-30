@@ -5,7 +5,7 @@
  *
  * Displays contact information, map, and contact form.
  *
- * @package EHD_Single_Page_Food_Truck
+ * @package EHD_WP_Theme__Single_Page_Food_Truck
  * @subpackage Template_Parts
  * @category Theme
  * @author Eric Hepperle Designs

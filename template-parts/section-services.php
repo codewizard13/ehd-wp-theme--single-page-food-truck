@@ -18,7 +18,7 @@
  * - An optional subtitle/intro
  * - A grid of cards with image, title, and description
  *
- * @package EHD_Single_Page_Food_Truck
+ * @package EHD_WP_Theme__Single_Page_Food_Truck
  * @subpackage Template_Parts
  * @category Theme
  * @author Eric Hepperle Designs

@@ -5,7 +5,7 @@
  *
  * Displays the main hero banner with headline, subheadline, and call-to-action.
  *
- * @package EHD_Single_Page_Food_Truck
+ * @package EHD_WP_Theme__Single_Page_Food_Truck
  * @subpackage Template_Parts
  * @category Theme
  * @author Eric Hepperle Designs

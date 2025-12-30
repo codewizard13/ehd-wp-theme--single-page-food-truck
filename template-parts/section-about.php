@@ -5,7 +5,7 @@
  *
  * Displays the about section with business story and image.
  *
- * @package EHD_Single_Page_Food_Truck
+ * @package EHD_WP_Theme__Single_Page_Food_Truck
  * @subpackage Template_Parts
  * @category Theme
  * @author Eric Hepperle Designs
