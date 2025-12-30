@@ -26,8 +26,8 @@ $food_menu = sps_data('food_menu');
   <div class="container hero-inner">
     <div class="hero-content">
       <div class="hero-badges">
-        <span class="hero-badge">Geneva, AL · Dothan · Enterprise</span>
-        <span class="hero-badge">Daily Soul Food Specials</span>
+        <span class="hero-badge"><?php echo esc_html( $hero['badges']['service_area'] ) ?></span>
+        <span class="hero-badge"><?php echo esc_html( $hero['badges']['menu_highlight'] ) ?></span>
       </div>
       <h1><?php echo esc_html( $hero['headline'] ); ?></h1>
       <p><?php echo esc_html( $hero['subheadline'] ); ?></p>
@@ -35,7 +35,7 @@ $food_menu = sps_data('food_menu');
         <?php echo esc_html( $hero['button_text'] ); ?>
       </a>
       <div class="hero-meta">
-        <span><em>"Cooked from the soul, affordable for everyone"</em> — Jackie Morris</span>
+        <span><em><?php echo esc_html( $hero['quote']['content'] ) ?></em> — <?php echo esc_html( $hero['quote']['source'] ) ?></span>
       </div>
     </div>
     <div class="hero-media">

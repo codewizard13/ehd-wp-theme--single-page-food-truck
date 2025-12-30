@@ -21,8 +21,16 @@ return array(
         'subheadline' => 'Hot plates of chili, BBQ pork, fried chicken, fish, ribs & daily specials from Ozark, AL.',
         'button_text' => 'See Today\'s Menu',
         'button_url' => '#services',
+        'badges' => [
+            'service_area' => 'Ozark · Troy · Eufaula',
+            'menu_highlight' => 'Daily Soul Food Specials',
+        ],
         'image_url' => 'https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?w=800&fit=crop',
-        'image_alt' => 'Fictional replacement: Finger Lickin’ Chicken fried dish'
+        'image_alt' => 'Fictional replacement: Finger Lickin’ Chicken fried dish',
+        'quote' => [
+            'content' => 'Cooked from the soul, affordable for everyone',
+            'source' => 'Mack Turner',
+        ],
     ),
     'business' => array(
         'name' => 'Finger Lickin’ Chicken',
