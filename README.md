@@ -1,4 +1,4 @@
-![Site Logo](/pix/logos/2025_FingerLickinChicken-FullColor-Horizontal.png)
+![Site Logo](/pix/logos/eric-hepperle-designs-stacked-h100px.png){height=52px}
 
 
 # Finger Lickin' Chicken Theme
