@@ -6,22 +6,9 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-// $headline    = sps_field( 'hero_headline', "Soul Food from the Heart" );
-// $subheadline = sps_field( 'hero_subheadline', "Hot plates of chili, BBQ pork, fried chicken, fish, ribs & daily specials from Geneva, AL." );
-// $button_text = sps_field( 'hero_button_text', 'See Today\'s food_Menu' );
-// $button_url  = sps_field( 'hero_button_url', '#services' );
-
 $hero = sps_data('hero');
 $food_menu = sps_data('food_menu');
-  error_log(basename(__FILE__) . ': ' . __LINE__ . ' - ' . '$food_menu: ' . print_r($food_menu, 1));
 
-
-
-// BUILT-IN HERO IMAGE (fried chicken plate)
-// $hero_image = array(
-//     'url' => 'https://images.unsplash.com/photo-1690519315565-c31ce99f8d58?w=300&fit=crop',
-//     'alt' => 'Hot fried chicken plate from TT Soul To Go'
-// );
 ?>
 <section id="hero" class="section-hero">
   <div class="container hero-inner">

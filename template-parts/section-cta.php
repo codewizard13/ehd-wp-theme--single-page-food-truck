@@ -6,16 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-// $title       = sps_field( 'cta_title', 'Hungry? Come See TT Soul To Go' );
-// $subtitle    = sps_field(
-//     'cta_subtitle',
-//     'Check our daily specials and swing by for a hot, affordable soul food plate.'
-// );
-// $button_text = sps_field( 'cta_button_text', 'Call to Ask What’s Cooking' );
-// $button_url  = sps_field( 'cta_button_url', 'tel:13348679329' );
-
 $cta = sps_data('cta');
-
 $phone_num = sps_fmt_phone( sps_data('business')['phone'], 3);
 $cta_btn_url = "tel:1$phone_num";
 
