@@ -46,7 +46,8 @@ return array(
         'BBQ Pork Plate' => [
             'title' => 'BBQ Pork Plate',
             'desc' => 'Slow-smoked pork, cornbread & two sides.',
-            'image_url' => 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300&fit=crop',
+            // 'image_url' => 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=300&fit=crop',
+            'image_url' => 'https://images.pexels.com/photos/27953851/pexels-photo-27953851.jpeg',
             'alt' => 'BBQ Pork Plate'
         ],
         'Fried Chicken' => [
@@ -58,7 +59,8 @@ return array(
         'Chili & Dogs' => [
             'title' => 'Chili & Dogs',
             'desc' => 'Hearty homemade chili on hot dogs.',
-            'image_url' => 'https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?w=300&fit=crop',
+            // 'image_url' => 'https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?w=300&fit=crop',
+            'image_url' => 'https://www.publicdomainpictures.net/pictures/250000/velka/chili-cheese-dog-on-plate.jpg',
             'alt' => 'Chili & Dogs'
         ],
         'Fried Fish' => [
